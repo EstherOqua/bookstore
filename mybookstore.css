@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header{
+  background-color: none;
+  margin: auto;
+  padding: auto;
+}
+body{
+    background-image: url("open\ book.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+}
+.breadcrumb{
+  background-color:#e9e9e9;
+  overflow: hidden;
+}
+.breadcrumb a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.breadcrumb a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.breadcrumb a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.breadcrumb .search-container {
+  float: right;
+}
+.breadcrumb input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.breadcrumb .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+hr.rounded {
+  border-top: 5px solid white;
+  border-radius: 5px;
+}
+.books {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: auto;
+  margin: auto;
+  text-align: left;
+  font-family: arial;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.title {
+  color: black
+  font-size: 13px;
+}
+.author{
+  color: #000000;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.books button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  font-size: 18px;
+}
+.books button:hover {
+  opacity: 0.7;
+}
+.description{
+  text-align: left;
+  font-size: 12px;
+  width:35%;
+}
+.box{
+  display: flex;
+}
