@@ -3,30 +3,44 @@
   margin: 0;
 }
 .header{
-  background-color: none;
+  background-image: url("book\ library.jpg");
+  width: 100%;
   margin: auto;
-  padding: auto;
+  padding: 50px;
 } 
 .bookLink{
   padding: 1rem 5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 200;
   color: #000;
+  text-decoration: none;
 }
 h1 {
   text-align: center;
-  font-size: 50px;
-  font-family: cursive;
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+.subheading{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 4px;
+  font-size: x-large;
+  padding: 10px;
 }
 .breadcrumb{
-  background-color:#e9e9e9;
   overflow: hidden;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 1.5rem;
+  color:gray;
 }
 .breadcrumb a{
   float: left;
-  color: black;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -57,54 +71,91 @@ h1 {
   border: none;
   cursor: pointer;
 }
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:white;
+}
 .list {
-  padding: 5px 10px;
+  padding: 10px 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-evenly;
+  align-items: center;
 }
 .book{
   width: 30%;
-  height: auto;
+  height: 45%;
   padding: 30px 30px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  position: relative;
+}
+.book:hover .overlay {
+  opacity: 1;
 }
 
-.price {
+.displayed{
+  display: block;
+  width: 50%;
+  height: auto;
+  position: relative;
+  margin-left: 60px;
+}
+.book .price {
   color: black;
-  font-size: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
 }
 .title {
-  color: black
+  color: black;
   font-size: 12px;
+  text-align: center;
 }
 .author{
   color: #000000;
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 .addbtn {
   border: none;
   outline: 0;
-  padding: 12px;
+  padding: 9px;
   color: white;
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 200px;
-  font-size: 18px;
+  width: 150px;
+  font-size: 13px;
+  margin: 10%;
+  position: absolute;
 }
-.addbtn :hover {
+.addbtn :hover{
   opacity: 0.9;
 }
 .description{
   text-align: left;
-  font-size: 15px;
-  width:100%;
+  font-size: 13px;
+  width:80%;
   height: 45%;
-
+  top: 50%;
+  left: 50%;
+  padding: 25px;
 }
+
 .book h2{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
