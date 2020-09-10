@@ -96,9 +96,6 @@ h1 {
   width: 30%;
   height: 45%;
   padding: 30px 30px;
-  margin-top: 1px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid rgb(209, 209, 209);
   position: relative;
 }
 .book:hover .overlay {
