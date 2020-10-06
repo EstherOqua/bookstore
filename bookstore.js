@@ -1,11 +1,21 @@
 const books = [
     {name: 'Queenie', author: 'Candice Carty-Williams', price: '£12.99', description: , image: , },
     {name: 'Love in Color', author: 'Bolu Babalola' price:'12.99'},
-    {name: 'Welcome to Lagos', author: price:},
-    {name: 'Ghana Must Go', author: price:},
     {name: 'Americanah', author: price:},
-    {name: 'Half of a yellow sun', author: price:},
-    {name: author: price:}
+    {name: 'Ghana Must Go', author: price:},
+    {name: 'Half of a Yellow Sun', author: price:},
+    {name: 'Welcome to Lagos', author: price:},
+    {name: 'The Girl with the Louding Voice'author: price:},
+    {name: 'Swing Time'author: price:},
+    {name: 'I Know Why the caged bird sings',author: price:},
+    {name: 'Harry Potter and the Philsophers Stone', author: 'J K Rowling', price:},
+    {name: 'Harry Potter and Chamber of Secrets', author: 'J K Rowling', price:},
+    {name: 'Harry Potter and Prisoner of Azkaban', author:'J K Rowling', price:},
+    {name: 'Harry Potter and the Order of Phoenix', author: 'J K Rowling',  price:},
+    {name: 'Harry Potter and the Half-Blood Prince', author: 'J K Rowling',  price:},
+    {name: 'Harry Potter and the Deathly Hollow', author: 'J K Rowling', price:},
+    {name: 'The Chronicles of Narnia', author: 'C.S Lewis' price:},
+    {name: 'Wuthering Heights', author:'Emily Bronte' price:}
   
   ];
 
