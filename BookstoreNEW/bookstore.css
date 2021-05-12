@@ -9,10 +9,12 @@
     margin: 10px 0;
     background-color: gray;
 }
- .card{
+ .books .card{
     display: inline-block;
     flex-direction: column;
     margin: 30px;
+    margin-left: 30px;
+    padding-left: 20px;
     color:black;
     transition: all 0.3s ease;
     justify-content: space-between;
