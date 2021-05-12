@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:ital,wght@0,100;0,400;1,100&family=Ubuntu:wght@400;500&display=swap');
 *{
-    padding: 0;
-    margin: 0;
+    padding: 30;
+    margin: 60;
+    box-sizing: border-box;
+    text-decoration: none;
 }
-.card{
-    
+.navbar{
+    margin: 10px 0;
+    background-color: gray;
 }
+ .card{
+    display: inline-block;
+    flex-direction: column;
+    margin: 30px;
+    color:black;
+    transition: all 0.3s ease;
+    justify-content: space-between;
+ }
