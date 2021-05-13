@@ -19,3 +19,6 @@
     transition: all 0.3s ease;
     justify-content: space-between;
  }
+ .books .card:hover{
+    transform: scale(1.05);
+    background: grey;
