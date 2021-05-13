@@ -1,24 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:ital,wght@0,100;0,400;1,100&family=Ubuntu:wght@400;500&display=swap');
 *{
-    padding: 30;
-    margin: 60;
+    padding: 0px;
+    margin: 0;
+    padding-left: 10px;
     box-sizing: border-box;
     text-decoration: none;
 }
 .navbar{
     margin: 10px 0;
-    background-color: gray;
+    background-color:whitesmoke;
+}
+.title{
+    font-family: Poppins;
+    font-style: italic;
 }
  .books .card{
     display: inline-block;
     flex-direction: column;
     margin: 30px;
     margin-left: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
     color:black;
     transition: all 0.3s ease;
     justify-content: space-between;
  }
  .books .card:hover{
     transform: scale(1.05);
-    background: grey;
+ }
+ .card .card-img-top{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 35px ;
+    margin-top: 10px;
+    padding: 0;
+ }
+.card-body .btnbtn-primary{
+     background-color: black;
+     padding-left: 20px;
+ }
