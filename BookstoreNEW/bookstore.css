@@ -16,13 +16,17 @@
 .title{
     font-family: Poppins;
     font-style: italic;
+    font-size: x-small;
+}
+section{
+    align-items: center;
 }
  .books .card{
     display: inline-block;
     flex-direction: column;
-    margin: 30px;
-    margin-left: 30px;
-    padding-left: 30px;
+    margin: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
     color:black;
     transition: all 0.3s ease;
     justify-content: space-between;
@@ -31,8 +35,8 @@
     transform: scale(1.05);
  }
  .card .card-img-top{
-    height: 300px;
-    width: 200px;
+    height: 150px;
+    width: 102px;
     object-fit: cover;
     border-radius: 8px;
     margin-left: 35px ;
@@ -42,12 +46,16 @@
  .price{
      font-weight: 500;
      font-style: italic;
-     font-size: small;
+     font-size:smaller;
      margin-top: -25px;
      padding: 10px;
  }
+ .author{
+     font-size: small;
+ }
  .card-text{
      margin-top: -25px;
+     font-size: smaller;
  }
 .button{
     height: 50px;
